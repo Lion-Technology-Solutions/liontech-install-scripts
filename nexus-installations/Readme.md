@@ -1,4 +1,20 @@
-# How To Install Latest Sonatype Nexus 3 on Linux
+Table of Contents
+
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [How To Install Latest Sonatype Nexus 3 on](#how-to-install-latest-sonatype-nexus-3-on)
+  - [Sonatype Nexus System Requirements](#sonatype-nexus-system-requirements)
+  - [Sonatype Nexus 3 on Linux ec2 (Redhat Enterprise Linux 7)](#sonatype-nexus-3-on-linux-ec2-redhat-enterprise-linux-7)
+- [Automatic Installation](#automatic-installation)
+- [Manual Installation](#manual-installation)
+  - [Running Nexus as a System Service](#running-nexus-as-a-system-service)
+  - [Manage Nexus Service](#manage-nexus-service)
+  - [Sonatype Nexus not Starting \[Troubleshooting\]](#sonatype-nexus-not-starting-troubleshooting)
+  - [How to check the Nexus version in Linux?](#how-to-check-the-nexus-version-in-linux)
+  - [How to start Nexus in Linux?](#how-to-start-nexus-in-linux)
+
+
+# How To Install Latest Sonatype Nexus 3 on 
 
 Sonatype Nexus is one of the best open-source artifact management tools. It is some tool that you cannot avoid in your CI/CD pipeline. It effectively manages deployable artifacts.
 
@@ -15,6 +31,23 @@ Sonatype Nexus is one of the best open-source artifact management tools. It is s
 This article guides you to install and configure Sonatype Nexus 3 in a secure way on an ec2 Linux System.
 
 > **Note:** This was tested on a Redhat machine and it will work on Centos or related Linux flavors as well.
+
+# Automatic Installation
+
+**Step 1:** Login to your Linux server and clone this repository.
+
+```console
+git clone https://github.com/phitabs24/nexus-install-scripts.git
+```
+
+**Step 2:** Change directory to the cloned repository and run the installation script as root user.
+
+```console
+cd nexus-install-scripts
+sudo bash nexus-install-redhat.sh
+```
+
+# Manual Installation
 
 **Step 1:** Login to your Linux server and update the yum packages. Also install required utilities.
 
