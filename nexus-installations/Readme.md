@@ -10,7 +10,7 @@ Sonatype Nexus is one of the best open-source artifact management tools. It is s
 4. All Nexus processes should run as a non-root nexus user.
 > Note: For production setup, please consider minimum production hardware requirements based on the nexus usage and data storage. Check out the [official system requirements document](https://help.sonatype.com/repomanager3/installation/system-requirements) for detailed information
 
-## Sonatype Nexus 3 on Linux ec2
+## Sonatype Nexus 3 on Linux ec2 (Redhat Enterprise Linux 7)
 
 This article guides you to install and configure Sonatype Nexus 3 in a secure way on an ec2 Linux System.
 
