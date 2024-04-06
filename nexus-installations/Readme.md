@@ -31,7 +31,7 @@ sudo yum install java-1.8.0-openjdk.x86_64 -y
 **Step 3:** Create a directory named app and cd into the directory.
 
 ```console
-isudo mkdr /app && c d/app
+sudo mkdir /app && cd /app
 ```
 **Step 4:** Download the latest nexus. You can get the latest download links fo for nexus [from here](https://help.sonatype.com/repomanager3/download).
 
