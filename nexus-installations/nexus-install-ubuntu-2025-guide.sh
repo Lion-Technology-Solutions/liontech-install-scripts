@@ -28,3 +28,7 @@ sudo chmod -R 775 /opt/nexus
   #     <id>nexus</id>
      #  <username>admin</username>
  ## </server>
+
+
+ #  https://www.sonatype.com/thanks/nexus-repo-download?utm_campaign=2024%3A%20Repo%20Trial%20Nurture%20-%20Post%20Form%20Fill&utm_medium=email&_hsenc=p2ANqtz-_ZTSd6g127pJVdmCL8kiCVLgU2VuPXk2i3czrh__J0WTTCU_rLoFZ2GeYqOFsExLSbgB6MLfR78GZi0dQ0Ppw3mcG6mQ&_hsmi=361072078&utm_content=361072078&utm_source=hs_automation
+ 
