@@ -2,9 +2,9 @@
 sudo apt-get update
 sudo apt install openjdk-8-jdk #install java jdk.
 cd /opt
-sudo wget https://download.sonatype.com/nexus/3/nexus-3.62.0-01-unix.tar.gz
-sudo tar -zxvf nexus-3.62.0-01-unix.tar.gz
-sudo mv /opt/nexus-3.62.0-01    /opt/nexus
+ sudo wget https://cdn.download.sonatype.com/repository/downloads-prod-group/3/nexus-3.86.0-08-linux-x86_64.tar.gz
+ sudo tar -zvxf nexus-3.86.0-08-linux-x86_64.tar.gz
+ sudo mv   nexus-3.86.0-08 /opt/nexus
 sudo adduser nexus
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
 sudo chown -R nexus:nexus /opt/nexus
