@@ -2,9 +2,9 @@
 sudo apt-get update
 sudo apt install openjdk-8-jdk #install java jdk.
 cd /opt
-sudo wget https://download.sonatype.com/nexus/3/nexus-3.62.0-01-unix.tar.gz
-sudo tar -zxvf nexus-3.62.0-01-unix.tar.gz
-sudo mv /opt/nexus-3.62.0-01    /opt/nexus
+ sudo wget https://cdn.download.sonatype.com/repository/downloads-prod-group/3/nexus-3.86.0-08-linux-x86_64.tar.gz
+ sudo tar -zvxf nexus-3.86.0-08-linux-x86_64.tar.gz
+ sudo mv   nexus-3.86.0-08 /opt/nexus
 sudo adduser nexus
 sudo echo "nexus ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/nexus
 sudo chown -R nexus:nexus /opt/nexus
@@ -28,3 +28,7 @@ sudo chmod -R 775 /opt/nexus
   #     <id>nexus</id>
      #  <username>admin</username>
  ## </server>
+
+
+ #  https://www.sonatype.com/thanks/nexus-repo-download?utm_campaign=2024%3A%20Repo%20Trial%20Nurture%20-%20Post%20Form%20Fill&utm_medium=email&_hsenc=p2ANqtz-_ZTSd6g127pJVdmCL8kiCVLgU2VuPXk2i3czrh__J0WTTCU_rLoFZ2GeYqOFsExLSbgB6MLfR78GZi0dQ0Ppw3mcG6mQ&_hsmi=361072078&utm_content=361072078&utm_source=hs_automation
+ 
